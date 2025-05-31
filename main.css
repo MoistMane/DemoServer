@@ -1,0 +1,68 @@
+:root {
+    --headers: #008080;
+    --hover: #4169E1;
+    --font: #D3D3D3;
+    --background: #1C1C1C;
+}
+
+html {
+
+    font-family:'Times New Roman', Times, serif;
+    color: var(--font);
+    background-color: var(--background);
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+fieldset {
+    display: flex;
+    border: 3px solid #006D5B;
+    border-radius: 1em;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    max-width: 15em;
+    margin-left: auto;
+    background-color: #101010;
+}
+
+label {
+	float: none;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+textarea {
+    margin-bottom: 1em;
+}
+
+textarea, input, select {
+    width: 95%;
+    max-width: 400px;
+    padding: 0.5em;
+    background-color: var(--background);
+    color: var(--font);
+    border: 1px solid var(--headers);
+    border-radius: .5em;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttons input[type="submit"] {
+    margin-bottom: 1em;
+}
+
+#buttons input[type="submit"]:hover, #buttons input[type="reset"]:hover {
+    background-color: var(--hover);
+}
+
+h2 {
+    color: #044604;
+}
